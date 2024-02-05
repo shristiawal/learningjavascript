@@ -57,7 +57,20 @@ while (i < 5) {
 // Logs:
 // 1 3 7 12
 
+//for loop
 
+for (let eat =0;eat<5; eat++){
+  console.log("i eat food");
+}
 
+//do while
+let R ='';
+let C =0;
+do{
+  C=C+1;
+  R=R+C;
+
+}while (C<15);
+console.log(R);
 
 
