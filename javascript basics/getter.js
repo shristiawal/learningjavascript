@@ -4,6 +4,7 @@ const obj=
     get latest(){
         return this.hello[this.hello.length - 1];
         
+        
     },
 };
 console.log(obj.latest);
