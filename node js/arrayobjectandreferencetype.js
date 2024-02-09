@@ -14,3 +14,9 @@ const person ={
 
   const copiedArray =[hobbies];
   console.log(copiedArray);
+
+  const toArray =(...args)=>{//rest operator
+    return args
+  };
+
+  console.log(toArray(1,2,3,4));
