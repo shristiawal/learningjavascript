@@ -6,10 +6,11 @@ const server= http.createServer((req,res)=>{
 
 res.write('<html>');
 res.write('<head><title>Enter message</title></head>');
-res.write('<body><from action ="/message method = "POST"><input type ="text" name= "message"><button type = "submit">send</button>"</body>')
+res.write('<body><from action ="/message method = "POST"><input type ="text" name= "message"><button type = "submit">send</button></body>')
 res.write('</html>');
 res.end();
    }
 
 
 }); 
+server.listen(4000);
