@@ -12,6 +12,9 @@ function summarizeuser(username, userage, userhashobbies){
         ' and the user has hobbies:' +
         userhashobbies);
     }
+    //const add = (a,b) => a + b;
+    //const addone =a => a+1;
+    //only one argument no need of braces 
 
 console.log(summarizeuser(name,age,hashobbies));
 

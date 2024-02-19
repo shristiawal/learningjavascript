@@ -6,3 +6,6 @@ const person = {
     }
 };
 person.greet();
+
+
+//this  refers to global scope globel node cruntime scope.
