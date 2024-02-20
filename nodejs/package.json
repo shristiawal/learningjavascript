@@ -1,0 +1,13 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "npm",
+  "main": "npmm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node npmm.js",
+    "start-server": "node npmm.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
